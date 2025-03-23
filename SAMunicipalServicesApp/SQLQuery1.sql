@@ -1,0 +1,7 @@
+﻿CREATE TABLE Events (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Title NVARCHAR(255) NOT NULL,
+    Category NVARCHAR(100) NOT NULL,
+    EventDate DATE NOT NULL,
+    Location NVARCHAR(255) NOT NULL
+);

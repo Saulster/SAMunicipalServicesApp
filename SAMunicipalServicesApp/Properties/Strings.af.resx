@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachImageOrDocument" xml:space="preserve">
+    <value>heg prent of dokument aan</value>
+  </data>
+  <data name="AttachMediaBtn" xml:space="preserve">
+    <value>heg media aan</value>
+  </data>
+  <data name="BackToMainMenuBtn" xml:space="preserve">
+    <value>Terug na Hoofkieslys</value>
+  </data>
+  <data name="CategoryLbl" xml:space="preserve">
+    <value>kategorie</value>
+  </data>
+  <data name="CategoryRoads" xml:space="preserve">
+    <value>paaie</value>
+  </data>
+  <data name="CategorySanitation" xml:space="preserve">
+    <value>sanitasie</value>
+  </data>
+  <data name="CategoryUtilities" xml:space="preserve">
+    <value>nutsdienste</value>
+  </data>
+  <data name="closeBtn" xml:space="preserve">
+    <value>toemaak</value>
+  </data>
+  <data name="descriptionLbl" xml:space="preserve">
+    <value>beskrywing</value>
+  </data>
+  <data name="Form1Title" xml:space="preserve">
+    <value>Hoofkieslys</value>
+  </data>
+  <data name="IssueReportedSuccessfully" xml:space="preserve">
+    <value>Kwessie is suksesvol aangemeld!</value>
+  </data>
+  <data name="LocalEventsAndAnnouncements" xml:space="preserve">
+    <value>Plaaslike Geleenthede en aankondigings</value>
+  </data>
+  <data name="LocalEventsAndAnnouncementsTitle" xml:space="preserve">
+    <value>Plaaslike Geleenthede en aankondigings</value>
+  </data>
+  <data name="locationLbl" xml:space="preserve">
+    <value>ligging</value>
+  </data>
+  <data name="Nofileselected" xml:space="preserve">
+    <value>geen lêer gekies nie</value>
+  </data>
+  <data name="PleaseEnterACategory" xml:space="preserve">
+    <value>Voer asseblief 'n kategorie in</value>
+  </data>
+  <data name="PleaseEnterADescription" xml:space="preserve">
+    <value>Voer asseblief 'n beskrywing in</value>
+  </data>
+  <data name="PleaseEnterALocation" xml:space="preserve">
+    <value>Voer asseblief 'n ligging in</value>
+  </data>
+  <data name="ReportIssuesBtn" xml:space="preserve">
+    <value>Rapporteer Kwessies</value>
+  </data>
+  <data name="ReportIssuesTitle" xml:space="preserve">
+    <value>Rapporteer Kwessies</value>
+  </data>
+  <data name="ServiceRequestStatusBtn" xml:space="preserve">
+    <value>diensversoekstatus</value>
+  </data>
+  <data name="SubmitBtn" xml:space="preserve">
+    <value>indien</value>
+  </data>
+  <data name="ViewReportsFormBtn" xml:space="preserve">
+    <value>Hoofkieslys te sien </value>
+  </data>
+  <data name="btnEmployeeLogin" xml:space="preserve">
+    <value>admin aanmeld</value>
+  </data>
+  <data name="btnLogin" xml:space="preserve">
+    <value>Teken in</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Kanselleer</value>
+  </data>
+  <data name="LoginSuccessTitle" xml:space="preserve">
+    <value>Sukses</value>
+  </data>
+  <data name="LoginFailureMessage" xml:space="preserve">
+    <value>Ongeldige gebruikersnaam of wagwoord.</value>
+  </data>
+  <data name="LoginFailureTitle" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="lblUsername" xml:space="preserve">
+    <value>Gebruikersnaam:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Wagwoord:</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Welkom by die Suid-Afrikaanse Munisipale Diens App</value>
+  </data>
+  <data name="lblEmployeeLogin" xml:space="preserve">
+    <value>Werknemer Teken in</value>
+  </data>
+  <data name="nameOfEventLbl" xml:space="preserve">
+    <value>Naam van Gebeurtenis:</value>
+  </data>
+  <data name="searchBtn" xml:space="preserve">
+    <value>Soek op Naam</value>
+  </data>
+  <data name="btnSearchByCategory" xml:space="preserve">
+    <value>Soek op Kategorie</value>
+  </data>
+  <data name="dateLbl" xml:space="preserve">
+    <value>Datum:</value>
+  </data>
+  <data name="btnSearchByDate" xml:space="preserve">
+    <value>Soek op Datum</value>
+  </data>
+  <data name="btnSearchWithAll" xml:space="preserve">
+    <value>Soek met Alle Kriteria</value>
+  </data>
+  <data name="RemoveFileBtn" xml:space="preserve">
+    <value>Verwyder Media</value>
+  </data>
+  <data name="ErrorEnterLocation" xml:space="preserve">
+    <value>Voer asseblief 'n ligging in</value>
+  </data>
+  <data name="ErrorEnterCategory" xml:space="preserve">
+    <value>Voer asseblief 'n kategorie in</value>
+  </data>
+  <data name="ErrorEnterDescription" xml:space="preserve">
+    <value>Voer asseblief 'n beskrywing in</value>
+  </data>
+  <data name="ErrorAttachMedia" xml:space="preserve">
+    <value>Heg media aan, asseblief. </value>
+  </data>
+  <data name="AttachmentsAdded" xml:space="preserve">
+    <value>Aangehegde media: </value>
+  </data>
+  <data name="Removed" xml:space="preserve">
+    <value>Verwyder:</value>
+  </data>
+  <data name="NoFileSelectedForRemoval" xml:space="preserve">
+    <value>Geen lêer vir verwydering gekies nie. </value>
+  </data>
+  <data name="lblNewStatus" xml:space="preserve">
+    <value>Nuwe Status:</value>
+  </data>
+  <data name="lblSearchId" xml:space="preserve">
+    <value>Soek ID: </value>
+  </data>
+  <data name="btnUpdateStatus" xml:space="preserve">
+    <value>Opdateer Status </value>
+  </data>
+  <data name="LoginSuccessMessage" xml:space="preserve">
+    <value>Welkom</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Soek</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>Voer asseblief 'n geldige numeriese ID in. </value>
+  </data>
+  <data name="ServiceRequestFound" xml:space="preserve">
+    <value>Diensversoek Gevind </value>
+  </data>
+  <data name="ServiceRequestNotFound" xml:space="preserve">
+    <value>Diensversoek met ID {id} nie gevind nie. </value>
+  </data>
+</root>

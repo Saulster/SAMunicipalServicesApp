@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachImageOrDocument" xml:space="preserve">
+    <value>ncamathela umfanekiso okanye uxwebhu</value>
+  </data>
+  <data name="AttachMediaBtn" xml:space="preserve">
+    <value>Qhoboshela iMedia</value>
+  </data>
+  <data name="BackToMainMenuBtn" xml:space="preserve">
+    <value>Buyela kwiMenu engundoqo</value>
+  </data>
+  <data name="CategoryLbl" xml:space="preserve">
+    <value>Udidi</value>
+  </data>
+  <data name="CategoryRoads" xml:space="preserve">
+    <value>Iindlela</value>
+  </data>
+  <data name="CategorySanitation" xml:space="preserve">
+    <value>Ucoceko</value>
+  </data>
+  <data name="CategoryUtilities" xml:space="preserve">
+    <value>Izinto eziluncedo</value>
+  </data>
+  <data name="closeBtn" xml:space="preserve">
+    <value>yivale</value>
+  </data>
+  <data name="descriptionLbl" xml:space="preserve">
+    <value>inkcazelo</value>
+  </data>
+  <data name="Form1Title" xml:space="preserve">
+    <value>Eyona menyu</value>
+  </data>
+  <data name="IssueReportedSuccessfully" xml:space="preserve">
+    <value>Umba uxelwe ngempumelelo!</value>
+  </data>
+  <data name="LocalEventsAndAnnouncements" xml:space="preserve">
+    <value>Iziganeko zasekuhlaleni kunye neZaziso</value>
+  </data>
+  <data name="LocalEventsAndAnnouncementsTitle" xml:space="preserve">
+    <value>Iziganeko zasekuhlaleni kunye neZaziso</value>
+  </data>
+  <data name="locationLbl" xml:space="preserve">
+    <value>indawo</value>
+  </data>
+  <data name="Nofileselected" xml:space="preserve">
+    <value>akukho fayile ikhethiweyo</value>
+  </data>
+  <data name="PleaseEnterACategory" xml:space="preserve">
+    <value>Nceda Ngena Udidi</value>
+  </data>
+  <data name="PleaseEnterADescription" xml:space="preserve">
+    <value>Nceda Faka iNkcazo</value>
+  </data>
+  <data name="PleaseEnterALocation" xml:space="preserve">
+    <value>nceda ngenisa indawo</value>
+  </data>
+  <data name="ReportIssuesBtn" xml:space="preserve">
+    <value>Xela imiba</value>
+  </data>
+  <data name="ReportIssuesTitle" xml:space="preserve">
+    <value>Xela imiba</value>
+  </data>
+  <data name="ServiceRequestStatusBtn" xml:space="preserve">
+    <value>Ubume besicelo seNkonzo</value>
+  </data>
+  <data name="SubmitBtn" xml:space="preserve">
+    <value>Ngenisa</value>
+  </data>
+  <data name="ViewReportsFormBtn" xml:space="preserve">
+    <value>Jonga iiNgxelo</value>
+  </data>
+  <data name="btnEmployeeLogin" xml:space="preserve">
+    <value>ngena admin</value>
+  </data>
+  <data name="btnLogin" xml:space="preserve">
+    <value>Ngena</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Rhoxisa</value>
+  </data>
+  <data name="LoginSuccessTitle" xml:space="preserve">
+    <value>Impumelelo</value>
+  </data>
+  <data name="LoginFailureMessage" xml:space="preserve">
+    <value>Igama lomsebenzisi okanye igama lokugqitha alikho semthethweni.</value>
+  </data>
+  <data name="LoginFailureTitle" xml:space="preserve">
+    <value>Impazamo</value>
+  </data>
+  <data name="lblUsername" xml:space="preserve">
+    <value>Igama lomsebenzisi:</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Igama lokugqitha:</value>
+  </data>
+  <data name="lblWelcome" xml:space="preserve">
+    <value>Wamkelekile kwi-app yeNkonzo yaseMzantsi Afrika</value>
+  </data>
+  <data name="lblEmployeeLogin" xml:space="preserve">
+    <value>Ukungena kweSebe leNkonzo</value>
+  </data>
+  <data name="nameOfEventLbl" xml:space="preserve">
+    <value>Igama lomnyhadala:</value>
+  </data>
+  <data name="searchBtn" xml:space="preserve">
+    <value>Phanda Ngegama</value>
+  </data>
+  <data name="btnSearchByCategory" xml:space="preserve">
+    <value>Phanda NgoDidi</value>
+  </data>
+  <data name="dateLbl" xml:space="preserve">
+    <value>Umhla:</value>
+  </data>
+  <data name="btnSearchByDate" xml:space="preserve">
+    <value>Phanda Ngomhla</value>
+  </data>
+  <data name="btnSearchWithAll" xml:space="preserve">
+    <value>Phanda Nazo Zonke Iindlela</value>
+  </data>
+  <data name="RemoveFileBtn" xml:space="preserve">
+    <value>Susa iMedia</value>
+  </data>
+  <data name="ErrorEnterLocation" xml:space="preserve">
+    <value>Nceda ngenisa indawo</value>
+  </data>
+  <data name="ErrorEnterCategory" xml:space="preserve">
+    <value>Nceda ngenisa udidi</value>
+  </data>
+  <data name="ErrorEnterDescription" xml:space="preserve">
+    <value>Nceda ngenisa inkcazo</value>
+  </data>
+  <data name="ErrorAttachMedia" xml:space="preserve">
+    <value>Nceda qhoboshela iMedia</value>
+  </data>
+  <data name="AttachmentsAdded" xml:space="preserve">
+    <value>Imidiya edityanisiweyo:</value>
+  </data>
+  <data name="Removed" xml:space="preserve">
+    <value>Kususiwe:</value>
+  </data>
+  <data name="NoFileSelectedForRemoval" xml:space="preserve">
+    <value>Akukho fayile ikhethiweyo yokususwa.</value>
+  </data>
+  <data name="lblNewStatus" xml:space="preserve">
+    <value>Isimo Esitsha:</value>
+  </data>
+  <data name="lblSearchId" xml:space="preserve">
+    <value>Isazisi Sokukhangela:</value>
+  </data>
+  <data name="btnUpdateStatus" xml:space="preserve">
+    <value>Hlaziya iMeko</value>
+  </data>
+  <data name="LoginSuccessMessage" xml:space="preserve">
+    <value>Wamkelekile</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Phanda</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>Nceda ngenisa i-ID yesibini esebenzayo.</value>
+  </data>
+  <data name="ServiceRequestFound" xml:space="preserve">
+    <value>Isicelo senkonzo sifunyenwe</value>
+  </data>
+  <data name="ServiceRequestNotFound" xml:space="preserve">
+    <value>Isicelo senkonzo esine-ID {id} asifumanekanga.</value>
+  </data>
+</root>
